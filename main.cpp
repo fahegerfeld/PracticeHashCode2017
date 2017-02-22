@@ -7,7 +7,7 @@ int main(int argc, char ** argv) {
     {
         Pizza pizza(argv[1]);
         //pizza.print_cells();
-        pizza.run_algorithm();
+        pizza.run_algorithm_falko();
         int score = pizza.get_score();
         std::cout << "Score: " << score << std::endl;
         pizza.write_submission_file("myoutputfile.txt");
